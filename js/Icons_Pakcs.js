@@ -9,6 +9,7 @@ Defer(function() {
         t.innerHTML += o
     }
     document.querySelector(".loader_icons_pack").remove(), window.easyToggleState();
+    document.querySelector(".name_input").removeAttribute("style");
     for (var i = document.querySelectorAll(".btn_icon_pack"), r = 0; r < i.length; r++) i[r].addEventListener("click", function() {
         var e = this.getAttribute("data-title"),
             t = this.querySelector("path").getAttribute("d");
