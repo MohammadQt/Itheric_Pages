@@ -4,9 +4,6 @@ Defer(function() {
     for (e in matericons) {
         var n = [],
             a = matericons[e].tags;
-        for (r in a) n = a;
-        var o = "<button id='button_icon_" + e.toLowerCase().replace(/[-]/g, "_") + "' class='btn_icon_pack alpha_button_icon' type='button' aria-label='" + e + "' title='icon_" + e.toLowerCase().replace(/[_]/g, " ") + " " + n + "' data-toggle-class-on-target='active' data-toggle-target='#dialog_icons' aria-controls='dialog_icons' aria-expanded='false' aria-haspopup='listbox' data-toggle-outside='' data-title='" + e.replace(/[-_]/g, " ") + "' ><svg width='24' height='24' viewBox='0 0 24 24'>" + matericons[e].contents + "</svg></button";
-        t.innerHTML += o
     }
     document.querySelector(".loader_icons_pack").remove(), window.easyToggleState();
     document.querySelector(".name_input").removeAttribute("style");
