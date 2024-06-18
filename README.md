@@ -1,2 +1,2 @@
-# itheric_docs
-https://docs.itheric.com/
+# itheric
+https://itheric.com/
